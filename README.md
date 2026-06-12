@@ -80,15 +80,6 @@ python src/weather_pipeline.py
 
 ---
 
-## Output
-The final output is a structured dataset containing:
-
-| City | Latitude | Longitude | Temperature | Wind Speed | Humidity | Condition | Timestamp |
-
-This dataset is saved as a CSV file for further analysis or visualization.
-
----
-
 ## Future Improvements
 - Add data visualization using Matplotlib or Seaborn
 - Build interactive dashboard using Power BI
