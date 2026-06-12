@@ -1,1 +1,5 @@
-
+city_name  latitude  longitude  temperature_c  wind_speed_kmh  humidity_pct  weather_code      weather_condition    timestamp_utc
+   Mumbai 19.086115   72.85291           30.3            13.4            73             1           Mainly clear 2026-06-12T23:15
+    Delhi 28.576448   77.18678           25.8             9.4            87             0              Clear sky 2026-06-12T23:15
+  Chennai 13.110721   80.24590           28.0            14.5            75             3               Overcast 2026-06-12T23:15
+  Kolkata 22.601053   88.31776           27.5             5.4            93            81 Rain showers: Moderate 2026-06-12T23:15
