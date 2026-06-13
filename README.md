@@ -1,4 +1,4 @@
-# Weather Data Analysis Pipeline
+<h1 align="center">Weather Data Analysis Pipeline</h1><br>
 
 ## Overview
 A Python weather data project that fetches current weather for Indian cities using the Open-Meteo API, cleans and structures the response data, and saves outputs for analysis and visualization.
