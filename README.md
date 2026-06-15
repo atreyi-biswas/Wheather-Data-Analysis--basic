@@ -6,7 +6,6 @@
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 ![Power BI](https://img.shields.io/badge/powerbi-F2C811.svg?style=for-the-badge&logo=powerbi&logoColor=black)
-![Streamlit](https://img.shields.io/badge/streamlit-FF4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white)
 
 </div>
 
@@ -14,9 +13,11 @@
 A Python weather data project that fetches current weather for Indian cities using the Open-Meteo API, cleans and structures the response data, and saves outputs for analysis and visualization.
 
 ## Repository Structure
+## Repository Structure
 - `src/wheather_pipeline.py` — fetches weather data, processes records, and saves `data/weather_report.csv`
 - `analysis.py` — computes city summaries and saves `data/city_summary.csv`
 - `visualization.py` — generates chart PNGs in `output assets/`
+- `weather_visualizations.pbix` — Power BI dashboard for interactive weather data analysis
 - `data/` — contains generated CSV output files
 - `output assets/` — contains generated visualizations
 - `logs/` — logging artifacts and project notes
@@ -31,6 +32,7 @@ A Python weather data project that fetches current weather for Indian cities usi
 - Handles missing values before export
 - Saves cleaned data to CSV
 - Produces analysis summaries and visualizations
+- Provides an interactive Power BI dashboard for weather insights and comparisons
 
 
 ## How to Run
@@ -54,7 +56,11 @@ A Python weather data project that fetches current weather for Indian cities usi
    ```bash
    python visualization.py
    ```
+5. Open the Power BI dashboard:
+   ```bash
+   weather_visualizations.pbix
 
+   
 ## Output Files
 - `data/weather_report.csv`
 - `data/city_summary.csv`
@@ -63,6 +69,7 @@ A Python weather data project that fetches current weather for Indian cities usi
 - `output assets/wind.png`
 - `output assets/weather_conditions.png`
 - `output assets/temp_vs_humidity.png`
+- `weather_visualizations.pbix`
 
 ## Notes
 - The project uses Open-Meteo, which requires no API key
@@ -70,7 +77,6 @@ A Python weather data project that fetches current weather for Indian cities usi
 - The pipeline uses snake_case columns such as `temperature_c`, `humidity_pct`, and `wind_speed_kmh`
 
 ## Future Improvements
-- Add a dashboard or interactive visualization layer
 - Schedule regular daily data collection
 - Expand supported cities and historical storage
 - Add more derived metrics and trend analysis
